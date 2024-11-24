@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { orderServices } from './order.service';
-import mongoose from 'mongoose';
 
 const createOrder = async(req: Request, res: Response) => {
     try {
